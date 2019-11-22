@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(128, 128, 128, 0.42);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: steelblue;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: steelblue;
+}
+p{
+    font-size: 20px;
+    color: steelblue;
+}
+input{
+    border-radius: 3px;
+}
+button{
+    border-radius: 3px;
+}
+#nv2{
+    display: none;
+}
+#nv3{
+    display: none;
+}
+#img1{
+    display: none;
+}
+#level{
+    text-align: center;
+}
+.lv{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    font-size: 24px;
+}
+#resultat{
+    text-align: center;
+    font-size: 70px;
+    color: teal;
+    font-weight: bold;
+}
+#game{
+    text-align: center;
+}
+#nbUse{
+    text-align: center;
+    font-weight: bold;
+}
+#resultat{
+    text-align: center;
+
+}
+#text{
+
+}
+#btn{
+
+}
