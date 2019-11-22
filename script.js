@@ -39,7 +39,7 @@ function refresh2() {
 function refresh3() {
     nbEssai=0;
     EssaiMax=10;
-    random3 = Math.floor(Math.random()*300) ;
+    random3 = Math.floor(Math.random()*500) ;
     console.log(random3);
 }
 
@@ -100,7 +100,7 @@ lv2.addEventListener("click", function () {
         }
 
         if(EssaiMax === 0){
-            resultat.innerHTML = "C'est loose tu n'es qu'un ZERO, une putain de victime , un gros CON";
+            resultat.innerHTML = "C'est loose tu n'es qu'un ZERO, une victime , un gros CON";
             refresh2();
         }
     });
@@ -127,7 +127,7 @@ lv3.addEventListener("click", function () {
         }
 
         if(EssaiMax === 0){
-            resultat.innerHTML = "Rentre chez toi gros con meme un aspicot est meilleur que toi!!!";
+            resultat.innerHTML = "Rentre chez toi meme un aspicot est meilleur que toi!!!";
             refresh3();
         }
     });
